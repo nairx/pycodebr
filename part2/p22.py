@@ -1,0 +1,28 @@
+numbers = [4,6,2,3,6]
+# numbers.append(1)
+# print(numbers)
+# numbers.extend([1,9,4])
+# print(numbers)
+# numbers.insert(0,9)
+# print(numbers)
+# print(numbers.count(6))
+# numbers.remove(6)
+# print(numbers)
+# numbers.clear()
+# print(numbers)
+# numbers.pop()
+# print(numbers)
+# numbers.pop(2)
+# print(numbers)
+# numbers.sort()
+# print(numbers)
+# numbers.sort(reverse=True)
+# print(numbers)
+# new = sorted(numbers)
+# print(new)
+# new = sorted(numbers,reverse=True)
+# print(new)
+print(numbers.index(6))
+
+
+

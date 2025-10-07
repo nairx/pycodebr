@@ -1,0 +1,7 @@
+paragraph = input("Enter a paragraph")
+findwhat = input("Enter the word to find")
+replacewith = input("Enter the word to replace with")
+newpara = paragraph.replace(findwhat,replacewith)
+print(paragraph)
+print(newpara)
+print(newpara.count(replacewith))
