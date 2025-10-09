@@ -1,0 +1,12 @@
+numbers = (5,3,2,1)
+print(len(numbers))
+print(max(numbers))
+print(min(numbers))
+print(sorted(numbers))
+print(sum(numbers))
+print(sum(numbers)/len(numbers))
+names = ["Satya","Sohan"]
+new = tuple(names)
+print(new)
+list1 = list(numbers)
+print(list1)
