@@ -1,0 +1,12 @@
+import math
+print(math.sqrt(25))
+print(math.ceil(4.3))
+print(math.lcm(24,4))
+print(math.gcd(24,4))
+print(math.trunc(24.2))
+print(math.fmod(21,2))
+print(math.factorial(3))
+print(math.floor(2.7))
+print(math.fsum([4,6,7]))
+print(math.pow(5,2))
+print(math.prod([1,2,3]))
