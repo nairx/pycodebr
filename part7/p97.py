@@ -8,4 +8,18 @@ while True:
     if ch != "y":
         break
 f.close()
+# with open("temp.txt") as file:
+#     for line in file:
+#         print(line)
+
+# file = open("temp.txt","r")
+# data = file.read()
+# print(data)
+# file.close()
+
+file = open("temp.txt","r")
+for line in file:
+    print(line)
+file.close()
+
 
