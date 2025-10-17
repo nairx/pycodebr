@@ -1,0 +1,11 @@
+import pandas as pd
+df = pd.read_csv(".\part9\mydata.csv")
+# df.fillna(5,inplace=True)
+# x = df["Lahari"].mean()
+# x = df["Lahari"].median()
+x = df["Lahari"].mode()
+df["Lahari"].fillna(x,inplace=True)
+print(df)
+# print(df)
+# newdf = df.dropna()
+# print(newdf)
